@@ -1,0 +1,33 @@
+.card-button {
+	background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+	border-radius: 15px;
+}
+
+.gradient-text {
+	color: #f74780;
+}
+
+.card-icons {
+	width: 22.57px;
+	height: 24px;
+}
+
+footer {
+	background-color: rgb(19, 24, 63);
+	height: 120px;
+}
+
+.footer-button {
+	background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+	border-radius: 28px;
+}
+
+@media only screen and (max-width: 1026px) {
+    #fadeshow1 {
+        display: none;
+    }
+}
+
+body {
+	background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
