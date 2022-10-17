@@ -48,6 +48,8 @@ Users should be able to:
 
 I learned a lot more about positioning and display visibility.
 
+I also learned a lot about Figma and how to use Figma for development.
+
 ## Author
 
 - Github - [Alex Ashtiany](https://github.com/AlexDevOp4)
