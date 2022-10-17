@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-feedback-with-tailwind-95NdnpvL7e](https://www.frontendmentor.io/solutions/interactive-feedback-with-tailwind-95NdnpvL7e)
+- Live Site URL: [https://634de1d13c20c347dee7cb9e--interactive-feedback.netlify.app/](https://634de1d13c20c347dee7cb9e--interactive-feedback.netlify.app/)
 
 ## My process
 
