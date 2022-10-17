@@ -1,0 +1,30 @@
+.main-card {
+	background: radial-gradient(
+		98.96% 98.96% at 50% 0%,
+		#232a34 0%,
+		#181e27 100%
+	);
+	border-radius: 30px;
+	height: 350px;
+	width: 412px;
+	border-radius: 30px;
+}
+
+.icon-star {
+	background: #262e38;
+}
+
+.submit-button {
+
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 19px;
+	/* identical to box height */
+	letter-spacing: 2px;
+}
+
+button:hover {
+	background-color: gray;
+}
