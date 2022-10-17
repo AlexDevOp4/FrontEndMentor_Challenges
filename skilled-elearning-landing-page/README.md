@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./starter-code/assets/screenshot-mobile.png)
-![](./starter-code/assets/screenshot-tablet.png)
-![](./starter-code/assets/screenshot-desktop.png)
+![](./Landing-Page/assets/screenshot-mobile.png)
+![](./Landing-Page/assets/screenshot-tablet.png)
+![](./Landing-Page/assets/screenshot-desktop.png)
 
 ### Links
 
