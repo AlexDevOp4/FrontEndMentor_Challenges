@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-with-tailwind-0qQpFmp476](https://www.frontendmentor.io/solutions/responsive-landing-page-with-tailwind-0qQpFmp476)
+- Live Site URL: [https://frontendio.netlify.app](https://frontendio.netlify.app)
 
 ## My process
 
