@@ -23,7 +23,7 @@
 
 
     <nav class="bg-white ">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl px-4 sm:px-14 sm:py-2 lg:px-8">
         <div class="flex h-16 justify-between">
           <div class="flex">
             <div class=" md:flex md:items-center md:space-x-4">
@@ -33,7 +33,7 @@
           <div class="flex items-center">
             <div class="flex-shrink-0">
               <button type="button"
-                class="relative px-5 items-center rounded-full border  bg-black px-8 py-3 text-sm font-medium text-white  ">
+                class="relative px-5 items-center rounded-full border  bg-black px-8 py-3 text-sm font-medium text-white nav-button  ">
                 <span>Get Started</span>
               </button>
             </div>
@@ -42,21 +42,20 @@
     </nav>
 
 
-    <div id="fadeshow1" class="container  ml-80  md:mt-52  w-96 ">
+    <div id="fadeshow1" class="container  ml-80  md:mt-52  w-96  ">
       <h4 class="text-5xl font-bold">Maximize skill, minimize budget</h4>
       <p class="mt-12 text-xl text-gray-400">
         Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life
         you want.
       </p>
-
       <button
-        class=" text-white inline-flex items-center rounded-full border card-button px-8 py-4 text-sm font-medium  mt-12  ">
+        class=" text-white inline-flex items-center rounded-full border card-button px-8 py-4 text-sm font-medium  mt-12 main-button ">
         Get Started
       </button>
     </div>
 
-    <div class="flex flex-col inline-flex lg:hidden">
-      <div class="px-4">
+    <div class="flex flex-col inline-flex lg:hidden md:flex-row sm:mb-14">
+      <div class="px-12 pt-20 md:w-1/2 ">
         <h4 class="text-4xl font-bold">Maximize skill, minimize budget</h4>
         <p class="mt-4 text-xl text-gray-400">
           Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life
@@ -69,14 +68,15 @@
         </button>
       </div>
 
-      <div>
-        <img class="  " src="./assets/image-hero-mobile.png" alt="" />
-      </div>
-
+      <picture>
+        <source media="(min-width: 465px)" srcset="./assets/image-hero-desktop.png">
+        <img class="md:ml-28 md:absolute md:-top-20 md:-right-60 md:w-3/4" src="./assets/image-hero-mobile.png"
+          alt="a cute kitten">
+      </picture>
     </div>
 
 
-    <div class="mx-auto max-w-7xl py-8 pb-48 lg:pt-52">
+    <div class="mx-auto max-w-7xl py-8 pb-48 lg:pt-52 sm:px-4">
       <div class="space-y-12">
 
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
@@ -221,12 +221,6 @@
           </div>
         </div>
     </footer>
-
-
-
-
-
-
   </div>
 
 </body>
