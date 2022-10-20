@@ -3,6 +3,7 @@
 	body {
 		background-image: url('../bg-main-mobile.png');
 	}
+
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -12,6 +13,8 @@
 		width: 768px;
 		height: 1781px;
 	}
+
+
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {

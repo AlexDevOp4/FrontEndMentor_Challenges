@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot-nft-desktop.png)
-![](./assets/screenshot-nft-active.png)
+![](./main/assets/screenshot-desktop-equalizer.png)
+![](./main/assets/screenshot-mobile-equalizer.png)
 
 ### Links
 
@@ -43,6 +43,7 @@ Users should be able to:
 
 - [w3schools](https://www.w3schools.com)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Tailwind UI](https://tailwindui.com)
 
 ## Author
 
