@@ -12,8 +12,6 @@
 		width: 768px;
 		height: 1781px;
 	}
-
-
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -22,7 +20,6 @@
 		width: 1440px;
 		height: 1832px;
 	}
-
 }
 
 @media (min-width: 1281px) {
@@ -30,8 +27,19 @@
 		background-image: url('../bg-main-desktop.png');
 		width: 1440px;
 		height: 1832px;
-		
 	}
+}
+
+.ios-icon:hover {
+	background: #66e2dc;
+}
+
+.android-icon:hover {
+	background: #ffb964;
+}
+
+.footer-icons:hover {
+	color: #ffb964;
 }
 
 /* p {
