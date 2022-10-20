@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/tailwind-nft-preview-GmKSyVBevj)
-- Live Site URL: [Netlify Live Website](https://634ffac07c99960eaec00858--nft-preview-desktop.netlify.app/)
+- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/tailwind-equalizer-landpage-VTMNw9LfGv)
+- Live Site URL: [Netlify Live Website](https://635197af351ffb0301c6db26--ubiquitous-khapse-38c053.netlify.app/)
 
 ## My process
 

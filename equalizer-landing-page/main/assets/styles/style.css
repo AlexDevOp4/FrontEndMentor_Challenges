@@ -38,7 +38,6 @@
 		width: 1440px;
 		height: 1832px;
 	}
-
 }
 
 @media (min-width: 1281px) {
@@ -60,74 +59,6 @@
 .footer-icons:hover {
 	color: #ffb964;
 }
-
-/* p {
-	font-family: 'IBM Plex Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 34px;
-}
-
-h1 {
-	font-family: 'IBM Plex Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 88px;
-	line-height: 88px;
-	letter-spacing: -1px;
-	color: #191826;
-}
-
-h2 {
-	font-family: 'IBM Plex Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 52px;
-
-	color: #fcfaf9;
-}
-
-.main-h1 {
-	position: absolute;
-	width: 1000px;
-	height: 176px;
-	left: 165px;
-	top: 200px;
-}
-
-.system-audio {
-	position: absolute;
-	height: 102px;
-	left: 164.5px;
-	top: 437px;
-	font-family: 'IBM Plex Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 34px;
-	color: #191826;
-	text-align: left;
-}
-
-section {
-
-	height: 600px;
-	left: 165px;
-	top: 860px;
-
-	background: #191826;
-	border-radius: 12px;
-}
-
-.premium-eq {
-	position: absolute;
-	width: 446px;
-	height: 625px;
-	background: #fa7453;
-	border-radius: 12px;
-} */
 
 .main-card {
 	background: #191826;
