@@ -1,0 +1,230 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+	body {
+		background-image: url('../../images/pattern-background-mobile.svg');
+		background-repeat: no-repeat;
+		background: #e0e8ff;
+		position: relative;
+		width: 375px;
+		height: 709px;
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.hero-card {
+		position: absolute;
+		width: 327px;
+		height: 567px;
+		left: 24px;
+		top: 71px;
+		height: 567px;
+		width: 327px;
+		left: 24px;
+		top: 71px;
+		border-radius: 0px;
+	}
+
+	.order-sum {
+		position: absolute;
+		height: 37px;
+		left: 10.67%;
+		right: 10.67%;
+		top: calc(50% - 37px / 2 - 65px);
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 28px;
+		line-height: 37px;
+		text-align: center;
+
+		color: #1f2e55;
+	}
+
+	.p1 {
+		position: absolute;
+		height: 78px;
+		left: 10.67%;
+		right: 10.67%;
+		top: calc(50% - 78px / 2 + 9.5px);
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		color: #717fa6;
+	}
+
+	.group-3 {
+		position: absolute;
+		left: 16%;
+		right: 16%;
+		top: 63.41%;
+		bottom: 29.7%;
+	}
+
+	.group-4 {
+		position: absolute;
+		left: 7.34%;
+		right: 7.34%;
+		top: 59.26%;
+		bottom: 26.46%;
+
+		background: #f7f9ff;
+		border-radius: 11px;
+	}
+
+	.group-5 {
+		position: absolute;
+		left: 10.67%;
+		right: 10.67%;
+		top: 78.48%;
+		bottom: 14.35%;
+	}
+
+	.proceed {
+		position: absolute;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 0%;
+		background: #382ae1;
+		box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+		border-radius: 11px;
+	}
+
+	.cancel {
+		position: absolute;
+		height: 20px;
+		left: 35.17%;
+		right: 35.47%;
+		top: calc(50% - 20px / 2 + 241.5px);
+
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+
+/* Media Query for Desktops  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+	body {
+		background: #e0e8ff;
+		background-repeat: no-repeat;
+		position: relative;
+		width: 1440px;
+		height: 900px;
+	}
+}
+
+/* Media Query for Large Screens  */
+@media (min-width: 1281px) {
+	body {
+		background-repeat: no-repeat;
+		background: #e0e8ff;
+		position: relative;
+		width: 1440px;
+		height: 900px;
+	}
+
+	.hero-card {
+		position: absolute;
+		width: 450px;
+		height: 697px;
+		left: 495px;
+		top: 102px;
+	}
+
+	.hero-img {
+		width: 450px;
+		height: 220px;
+	}
+
+	.order-sum {
+		/* Order Summary */
+
+		position: absolute;
+		height: 37px;
+		left: 10.67%;
+		right: 10.67%;
+		top: calc(50% - 37px / 2 - 65px);
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 28px;
+		line-height: 37px;
+		text-align: center;
+		color: #1f2e55;
+	}
+
+	.p1 {
+		position: absolute;
+		height: 78px;
+		left: 10.67%;
+		right: 10.67%;
+		top: calc(50% - 78px / 2 + 9.5px);
+
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		color: #717fa6;
+	}
+
+	.group-3 {
+		position: absolute;
+		left: 16%;
+		right: 16%;
+		top: 63.41%;
+		bottom: 29.7%;
+	}
+
+	.group-4 {
+		position: absolute;
+		left: 10.67%;
+		right: 10.67%;
+		top: 59.83%;
+		bottom: 26.11%;
+		background: #f7f9ff;
+		border-radius: 11px;
+	}
+
+	.group-5 {
+		position: absolute;
+		left: 10.67%;
+		right: 10.67%;
+		top: 78.48%;
+		bottom: 14.35%;
+	}
+
+	.proceed {
+		position: absolute;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 0%;
+		background: #382ae1;
+		box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+		border-radius: 11px;
+	}
+
+	.cancel {
+		position: absolute;
+		height: 20px;
+		left: 39.11%;
+		right: 39.56%;
+		top: calc(50% - 20px / 2 + 290.5px);
+		font-family: 'Red Hat Display';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 15px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="./assets/styles/style.css" />
+
+		<title>Frontend Mentor | Order summary card</title>
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body class="mx-auto container">
+		<main>
+			<img
+				src="./images/pattern-background-desktop.svg"
+				class="w-screen"
+				alt="" />
+
+			<section class="flex justify-center">
+				<article class="rounded-lg shadow-lg bg-white hero-card">
+					<a href="#!">
+						<img
+							class="rounded-t-lg hero-img"
+							src="./images/illustration-hero.svg"
+							alt="" />
+					</a>
+					<div class="p-6">
+						<h5 class="order-sum">Order Summary</h5>
+						<p class="p1">
+							You can now listen to millions of songs, audiobooks, and podcasts
+							on any device anywhere you like!
+						</p>
+						<div
+							class="group-4 flex flex-row justify-center justify-between md:px-5 px-3">
+							<img class="mt-5 h-1/2" src="./images/icon-music.svg" alt="" />
+							<div
+								class="flex flex-col md:text-left text-left text-sm md:mr-20 mt-5">
+								<h1 class="font-bold">Annual Plan</h1>
+								<p class="text-gray-500">$59.99 <span>/year</span></p>
+							</div>
+							<p
+								class="md:mt-10 mt-8 text-sm text-indigo-500 font-bold underline hover:no-underline hover:text-indigo-300 cursor-pointer"
+								href="">
+								Change
+							</p>
+						</div>
+						<div class="group-5">
+							<button type="button" class="proceed text-white text-indigo-500">
+								Proceed to Payment
+							</button>
+						</div>
+
+						<p class="cancel cursor-pointer hover:text-black hover:font-bold">
+							Cancel Order
+						</p>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="md:pt-96 text-center md:pr-24">
+			Challenge by
+			<a
+				class="underline"
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a
+				class="underline animate-pulse transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-indigo-500 duration-300"
+				target="_blank"
+				href="https://www.frontendmentor.io/profile/AlexDevOp4"
+				>Alex Ashtiany</a
+			>.
+		</footer>
+	</body>
+</html>
