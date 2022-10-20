@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/tailwind-equalizer-landpage-VTMNw9LfGv)
+- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/order-summary-tailwind-css-7spEtSBDFh)
 - Live Site URL: [Netlify Live Website](https://fancy-gelato-986fa7.netlify.app/)
 
 ## My process
