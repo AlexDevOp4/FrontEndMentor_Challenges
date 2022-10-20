@@ -14,19 +14,19 @@
 
 		<title>Frontend Mentor | Equalizer landing page</title>
 	</head>
-	<body class="mx-auto  relative">
-		<div>
-			<header>
+	<body class="mx-auto relative  ">
+		<div class="md:overflow-hidden lg:overflow-visible">
+			<header class="container mx-auto">
 				<div class="relative bg-white">
 					<div
-						class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start  lg:px-8">
+						class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 md:justify-start lg:px-8">
 						<div class="flex justify-start lg:w-0 lg:flex-1 md:pt-12 pl-8">
 							<embed src="./assets/logo.svg" type="" />
 						</div>
 
 						<div
-							class="hidden  pattern-1 items-center justify-end lg:flex lg:flex-1 lg:w-0  ">
-							<img class="" src="./assets/bg-pattern-1.svg" alt="" />
+							class="items-center justify-end lg:flex lg:flex-1 lg:w-0">
+							<img class=" md:absolute md:-right-10 lg:w-auto md:w-48 -top-8 hidden md:block lg:block" src="./assets/bg-pattern-1.svg" alt="" />
 						</div>
 					</div>
 				</div>
@@ -70,7 +70,7 @@
 							type="" />
 
 						<div
-							class="premium-eq rounded-lg md:flex md:flex-col md:absolute w-fit md:w-96 md:z-40 lg:w-2/5 md:h-full  absolute lg:right-32 md:right-20 md:-bottom-24 -bottom-44 h-auto">
+							class="premium-eq rounded-lg md:flex md:flex-col md:absolute w-fit md:w-96 md:z-40 lg:w-2/5 md:h-full absolute lg:right-32 md:right-20 md:-bottom-24 -bottom-44 h-auto">
 							<h1
 								class="text-white md:pt-12 pt-8 pl-16 md:pb-8 pb-2 text-4xl font-bold">
 								Premium EQ
@@ -107,15 +107,15 @@
 						</div>
 					</div>
 				</div>
-
 			</main>
 
 			<footer aria-labelledby="footer-heading absolute bottom-0">
-				<div class="md:mx-auto max-w-7xl mt-48 mb-4 md:mt-0 md:mb-0  md:pt-48 sm:px-6 lg:pt-24 ">
+				<div
+					class="md:mx-auto max-w-7xl mt-48 mb-4 md:mt-0 md:mb-0 md:pt-48 sm:px-6 lg:pt-24">
 					<div
 						class="pt-8 md:flex md:items-center md:justify-between lg:mt-16 md:flex-row-reverse flex flex-col-reverse">
-						<div class="flex space-x-3   icons pl-4  ">
-							<a href="#" class="footer-icons ">
+						<div class="flex space-x-3 icons pl-4">
+							<a href="#" class="footer-icons">
 								<span class="sr-only">Facebook</span>
 								<svg
 									class="h-6 w-6"
@@ -129,7 +129,7 @@
 								</svg>
 							</a>
 
-							<a href="#" class="icons footer-icons ">
+							<a href="#" class="icons footer-icons">
 								<span class="sr-only">Instagram</span>
 								<svg
 									class="h-6 w-6"
@@ -143,7 +143,7 @@
 								</svg>
 							</a>
 
-							<a href="#" class="icons footer-icons ">
+							<a href="#" class="icons footer-icons">
 								<span class="sr-only">Twitter</span>
 								<svg
 									class="h-6 w-6"
@@ -156,14 +156,11 @@
 							</a>
 						</div>
 
-						<p class=" lg:mx-48 md:text-lg mx-4 text-sm py-4 ">
+						<p class="lg:mx-48 md:text-lg mx-4 text-sm py-4">
 							All rights reserved © Equalizer 2021 Have any problems? Contact us
 							via social media or email us at equalizer@example.com
 						</p>
-						<img
-							class=" w-32 flex-shrink pl-4"
-							src="./assets/logo.svg"
-							alt="" />
+						<img class="w-32 flex-shrink pl-4" src="./assets/logo.svg" alt="" />
 					</div>
 				</div>
 			</footer>

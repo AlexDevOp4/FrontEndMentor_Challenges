@@ -4,6 +4,15 @@
 		background-image: url('../bg-main-mobile.png');
 	}
 
+	.pattern-1 {
+		display: none;
+	}
+
+	.premium-eq {
+		background: #fa7453;
+		position: absolute;
+		left: 0;
+	}
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -14,7 +23,13 @@
 		height: 1781px;
 	}
 
-
+	.pattern-1 {
+		position: absolute;
+		width: 266.67px;
+		height: 400px;
+		left: 537px;
+		top: -32px;
+	}
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -23,6 +38,7 @@
 		width: 1440px;
 		height: 1832px;
 	}
+
 }
 
 @media (min-width: 1281px) {
