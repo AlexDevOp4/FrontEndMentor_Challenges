@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/order-summary-tailwind-css-7spEtSBDFh)
-- Live Site URL: [Netlify Live Website](https://fancy-gelato-986fa7.netlify.app/)
+- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/stats-preview-card-w-tailwind-0fH-14V0RT)
+- Live Site URL: [Netlify Live Website](https://fluffy-malasada-eb44e0.netlify.app/)
 
 ## My process
 
