@@ -1,0 +1,3 @@
+[submodule "advice-generator-react"]
+	path = advice-generator-react
+	url = https://github.com/AlexDevOp4/Advice-Generator.git
