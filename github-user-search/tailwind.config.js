@@ -14,7 +14,12 @@ module.exports = {
       height: {
         481: "481px",
       },
+      colors: {
+        "regal-blue": "#4b6a9b",
+      },
     },
   },
   plugins: [],
 };
+
+//#4b6a9b;

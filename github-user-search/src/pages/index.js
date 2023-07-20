@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Octokit } from "octokit";
 import Moon from "../images/assets/icon-moon.svg";
 import Search from "../images/assets/icon-search.svg";
@@ -9,8 +9,18 @@ import Company from "../images/assets/icon-company.svg";
 
 const IndexPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkModeCard, setIsDarkModeCard] = useState(false);
   const [search, setSearch] = useState("");
   const [user, setUser] = useState([]);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark-mode");
+      document.documentElement.classList.remove("text-black");
+    } else {
+      document.documentElement.classList.remove("dark-mode");
+    }
+  }, [isDarkMode]);
 
   const apiKey = process.env.GATSBY_API_KEY;
 
@@ -27,7 +37,9 @@ const IndexPage = () => {
   };
 
   const toggleMode = () => {
+    console.log("clicked");
     setIsDarkMode(!isDarkMode);
+    setIsDarkModeCard(!isDarkModeCard);
   };
 
   const handleKeyDown = async (event) => {
@@ -65,10 +77,14 @@ const IndexPage = () => {
   };
 
   return (
-    <main className={`app ${isDarkMode ? "dark-mode" : ""}`}>
-      <div className="devSection ">
+    <main>
+      <div
+        className={`devSection app ${isDarkMode ? "devSection dark-mode" : ""}`}
+      >
         <div className="group-10">
-          <p className="devfinder">devfinder</p>
+          <p className={`devfinder ${isDarkMode ? "text-white" : ""}`}>
+            devfinder
+          </p>
           <div className="group-5 md:flex md:flex-row md:gap-2 md:align-middle">
             <button className="dark" onClick={toggleMode}>
               DARK
@@ -77,12 +93,20 @@ const IndexPage = () => {
           </div>
         </div>
 
-        <div className="group-9 my-10 md:px-5">
+        <div
+          className={`dev-card  group-9 my-10 md:px-5 ${
+            isDarkModeCard ? "dev-card dark-card  group-9 my-10 md:px-5 " : ""
+          }`}
+        >
           <img src={Search} className="search md:pr-5" alt="search" />
           <input
+            className={` input  md:flex-1 placeholder:italic block md:py-2 focus:outline-none focus:border-transparent sm:text-sm ${
+              isDarkModeCard
+                ? " dark-card  input  md:flex-1 placeholder:italic block md:py-2 focus:outline-none focus:border-transparent sm:text-sm "
+                : ""
+            }`}
             onChange={handleChanges}
             onKeyDown={handleKeyDown}
-            className="input md:flex-1 placeholder:italic block md:py-2 focus:outline-none focus:border-transparent sm:text-sm"
             placeholder="Search GitHub username"
           />
           <button onClick={handleSubmit} className="button text-white">
@@ -90,7 +114,13 @@ const IndexPage = () => {
           </button>
         </div>
 
-        <div className="dev-card container md:px-32 p-10 md:mx-auto md:p-10 md:flex md:flex-col md:justify-around md:align-middle">
+        <div
+          className={`dev-card  container md:px-32 p-10 md:mx-auto md:p-10 md:flex md:flex-col md:justify-around md:align-middle ${
+            isDarkModeCard
+              ? "dev-card dark-card  container md:px-32 p-10 md:mx-auto md:p-10 md:flex md:flex-col md:justify-around md:align-middle "
+              : ""
+          }`}
+        >
           <div className="group-6">
             <div className="oval">
               <img src={user.avatar_url} className=" avatar" alt="avatar" />
@@ -103,7 +133,11 @@ const IndexPage = () => {
           </div>
           <p className="bio pt-5">{user.bio}</p>
 
-          <div className="group-3 flex flex-row justify-around">
+          <div
+            className={`group-3 flex flex-row justify-around app ${
+              isDarkMode ? "group-3 flex flex-row justify-around dark-mode" : ""
+            }`}
+          >
             <div className="group-3-1">
               <p className="repos top-column">Repos</p>
               <p className="repo-num bottom-column">{user.public_repos}</p>
@@ -120,7 +154,11 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className="group-7 grid grid-cols-2">
+          <div
+            className={`group-7 grid grid-cols-2 ${
+              isDarkMode ? "text-white" : "regal-blue"
+            }`}
+          >
             <div className="group-15">
               <img src={Location} className="location" alt="location" />
               <p className="location bottom-links">

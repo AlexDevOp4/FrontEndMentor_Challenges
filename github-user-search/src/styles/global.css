@@ -5,8 +5,34 @@
 .input {
   line-height: 25px; /* 138.889% */
 }
+body,
+main {
+  width: 1440px;
+  height: 900px;
+  background: #000000;
+}
 
-.avatar{
+.dark-card {
+  background: #1e2a47;
+  color: white;
+}
+.dev-card.dark-card {
+  background: #1e2a47;
+  border-radius: 15px;
+}
+
+.dark-mode {
+  background-color: #1f2937;
+  color: #ffffff;
+  width: 1440px;
+  height: 900px;
+}
+.app.dark-mode {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.avatar {
   width: 117px;
   height: 117px;
   flex-shrink: 0;
@@ -44,7 +70,7 @@
 }
 
 .bottom-links {
-  color: #4b6a9b;
+ 
   font-family: Space Mono;
   font-size: 15px;
   font-style: normal;
@@ -84,7 +110,7 @@
 }
 
 .devfinder {
-  color: #222731;
+ 
   font-family: Space Mono;
   font-size: 26px;
   font-style: normal;
