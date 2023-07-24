@@ -9,7 +9,6 @@ body,
 main {
   width: 1440px;
   height: 900px;
-  background: #000000;
 }
 
 .dark-card {
@@ -22,13 +21,13 @@ main {
 }
 
 .dark-mode {
-  background-color: #1f2937;
+  background-color: #141d2f;
   color: #ffffff;
   width: 1440px;
   height: 900px;
 }
 .app.dark-mode {
-  background-color: #1f2937;
+  background-color: #141d2f;
   color: #ffffff;
 }
 
@@ -70,7 +69,6 @@ main {
 }
 
 .bottom-links {
- 
   font-family: Space Mono;
   font-size: 15px;
   font-style: normal;
@@ -110,7 +108,6 @@ main {
 }
 
 .devfinder {
- 
   font-family: Space Mono;
   font-size: 26px;
   font-style: normal;
@@ -135,7 +132,6 @@ body,
 main {
   width: 1440px;
   height: 900px;
-  background: #f6f8ff;
 }
 
 .dev-card {
@@ -205,12 +201,12 @@ main {
     padding: 140px 98px 236px 97px;
     flex-direction: column;
     align-items: center;
-    background: #f6f8ff;
   }
 
   .app.dark-mode {
     background: #141d2f; /* Dark mode background color */
     color: #ffffff; /* Dark mode text color */
+    
   }
 
   .dev-card {
@@ -221,6 +217,9 @@ main {
   .devSection {
     width: 573px;
     height: 648px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .group-10 {

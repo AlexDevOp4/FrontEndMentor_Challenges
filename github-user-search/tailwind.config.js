@@ -15,7 +15,8 @@ module.exports = {
         481: "481px",
       },
       colors: {
-        "regal-blue": "#4b6a9b",
+        "dark-modebg": "#141D2F",
+        "cream-bg": "#f6f8ff",
       },
     },
   },

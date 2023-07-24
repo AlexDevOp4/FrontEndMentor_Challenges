@@ -15,10 +15,12 @@ const IndexPage = () => {
 
   useEffect(() => {
     if (isDarkMode) {
+      document.querySelector("body").style.background = "#141D2F";
       document.documentElement.classList.add("dark-mode");
       document.documentElement.classList.remove("text-black");
     } else {
       document.documentElement.classList.remove("dark-mode");
+      document.querySelector("body").style.background = "#f6f8ff";
     }
   }, [isDarkMode]);
 
@@ -46,14 +48,19 @@ const IndexPage = () => {
       // 👇 Get input value
       setSearch(event.target.value);
 
-      const { data } = await octokit.request("GET /users/{username}", {
-        username: search,
-        headers: {
-          "X-GitHub-Api-Version": "2022-11-28",
-        },
-      });
+      try {
+        const { data } = await octokit.request("GET /users/{username}", {
+          username: search,
+          headers: {
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+        });
 
-      setUser(data);
+        setUser(data);
+      } catch (error) {
+        console.log(error);
+        return;
+      }
     }
   };
 
@@ -65,20 +72,27 @@ const IndexPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const { data } = await octokit.request("GET /users/{username}", {
-      username: search,
-      headers: {
-        "X-GitHub-Api-Version": "2022-11-28",
-      },
-    });
+    try {
+      const { data } = await octokit.request("GET /users/{username}", {
+        username: search,
+        headers: {
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+      });
 
-    setUser(data);
+      setUser(data);
+    } catch (error) {
+      console.log(error);
+      return;
+    }
   };
 
   return (
     <main>
       <div
-        className={`devSection app ${isDarkMode ? "devSection dark-mode" : ""}`}
+        className={`devSection app ${
+          isDarkMode ? "devSection app dark-mode" : ""
+        }`}
       >
         <div className="group-10">
           <p className={`devfinder ${isDarkMode ? "text-white" : ""}`}>

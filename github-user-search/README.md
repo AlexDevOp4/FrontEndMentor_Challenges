@@ -1,49 +1,56 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+## Table of contents
 
-## 🚀 Quick start
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-1.  **Create a Gatsby site.**
+## Overview
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### The challenge
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Users should be able to:
 
-2.  **Start developing.**
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-    Navigate into your new site’s directory and start it up.
+### Screenshot
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+![](./src/images/darkMode-Desktop.png)
+![](./src/images/darkMode-mobile.png)
+![](./src/images/lightMode-Desktop.png)
+![](./src/images/lightMode-mobile.png)
 
-3.  **Open the code and start customizing!**
+### Links
 
-    Your site is now running at http://localhost:8000!
+- Solution URL: [Front End Mentor Solution Link](https://www.frontendmentor.io/solutions/advice-generator-UCPvPaLuJk)
+- Live Site URL: [Netlify Live Website](https://idyllic-bunny-a9755b.netlify.app/)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## My process
+- First Built out the light mode, for both desktop and mobile.
+- Then added the github api calls, to make sure it works.
+- Finally added the function to toggle between dark mode and light mode.
 
-4.  **Learn more**
+### Built with
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-## 🚀 Quick start (Netlify)
+### Useful resources
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+- [w3schools](https://www.w3schools.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Tailwind UI](https://tailwindui.com)
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## Author
+
+- Github - [Alex Ashtiany](https://github.com/AlexDevOp4)
+- Frontend Mentor - [@AlexDevOp4](https://www.frontendmentor.io/profile/AlexDevOp4)
