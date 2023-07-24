@@ -37,7 +37,6 @@ const IndexPage = () => {
   };
 
   const toggleMode = () => {
-    console.log("clicked");
     setIsDarkMode(!isDarkMode);
     setIsDarkModeCard(!isDarkModeCard);
   };
@@ -201,4 +200,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>DevFinder</title>;
